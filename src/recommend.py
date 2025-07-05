@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 logging.info("🔁 Loading data...")
 try:
-    df = joblib.load('df_cleaned.pkl')
+    df = joblib.load('src/df_cleaned.pkl')
     cosine_sim = joblib.load('cosine_sim.pkl')
     logging.info("✅ Data loaded successfully.")
 except Exception as e:
