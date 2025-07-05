@@ -11,7 +11,6 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
-ll
 logging.info("🔁 Loading data...")
 try:
     df = joblib.load('df_cleaned.pkl')
